@@ -135,6 +135,10 @@ public class TelaLogin extends javax.swing.JFrame {
                     "Logado efetuado com sucesso. bem vindo %s",
                     usuario.getNome()));
             btnLogin.setVisible(false);
+//            setVisible(false);
+//            dispose();
+            TelaInfo telainfo = new TelaInfo(usuario);
+            telainfo.setVisible(true);
         }
 //        for (Usuario usuario : listaUsuario) {
 //            System.out.println("email: "+usuario.getEmail());
