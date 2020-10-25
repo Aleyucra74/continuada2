@@ -1,0 +1,6 @@
+2020-10-25 13:48:09 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "PAIS" not found; SQL statement:
+select * from pais [42102-200]
+2020-10-25 15:04:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "DADOS" not found; SQL statement:
+select * from dados [42102-200]
